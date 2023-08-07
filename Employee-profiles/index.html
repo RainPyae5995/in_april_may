@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Profiles Grayscale grid</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background: rgb(8, 8, 8);
+            color: white;
+        }
+        section{
+margin-top: 40px;
+width: 100%;
+        }
+
+        h1{
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .container{
+            margin: 0px;
+            float: left;
+            position: relative;
+            width: 20%;
+            overflow: hidden;
+        }
+        .box{
+            height: 250px;
+        }
+        .propic{
+            height: 250px;
+            overflow: hidden;
+            filter: grayscale(100%);
+        }
+
+.box:hover{cursor: pointer;}
+        .box:hover .propic{
+            filter: none;
+        }
+
+        img{
+            width: 100%;
+        }
+
+        .textbox{
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            margin-top: 200px;
+            background-color: black;
+            height: 150px;
+            transform: rotateX(100deg);
+            transition: 1s ease-in;
+        }
+
+        .box:hover .textbox{
+            transform: none;
+        }
+
+        .textbox h1{
+            font-size: 25px;
+        }
+        .textbox h4{
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <br><br>
+    <h1>MEET OUR TEAM</h1>
+<section>
+<div class="container">
+<div class="box">
+<div class="textbox">
+    <h1>Katerina Schulz</h1>
+    <h4>CEO</h4>
+</div>
+<div class="propic">
+<img src="./five.jpg" alt="">
+</div>
+</div>
+</div>
+<div class="container">
+        <div class="box">
+        <div class="textbox">
+            <h1>Claire Gomez</h1>
+            <h4>Executive Assistant</h4>
+        </div>
+        <div class="propic">
+        <img src="./one.jpg" alt="">
+        </div>
+        </div>
+</div>
+<div class="container">
+    <div class="box">
+    <div class="textbox">
+        <h1>Steve James</h1>
+        <h4>Product Manager</h4>
+    </div>
+    <div class="propic">
+    <img src="./three.jpg" alt="">
+    </div>
+    </div>
+</div>
+<div class="container">
+                <div class="box">
+                <div class="textbox">
+                    <h1>Sonia White</h1>
+                    <h4>Operation Manager</h4>
+                </div>
+                <div class="propic">
+                <img src="./eight.jpg" alt="">
+                </div>
+                </div>
+</div>
+<div class="container">
+    <div class="box">
+    <div class="textbox">
+        <h1>Amanda Pane</h1>
+        <h4>Sales Rep</h4>
+    </div>
+    <div class="propic">
+    <img src="./ten.jpg" alt="">
+    </div>
+    </div>
+</div>
+<div class="container">
+    <div class="box">
+    <div class="textbox">
+        <h1>Brandon Brown</h1>
+        <h4>Marketing Specialist</h4>
+    </div>
+    <div class="propic">
+    <img src="./four.jpg" alt="">
+    </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="box">
+    <div class="textbox">
+        <h1>Jessica Jones</h1>
+        <h4>Accountant</h4>
+    </div>
+    <div class="propic">
+    <img src="./seven.jpg" alt="">
+    </div>
+    </div>
+</div>
+<div class="container">
+    <div class="box">
+    <div class="textbox">
+        <h1>Janelle Williams</h1>
+        <h4>Graphic designer</h4>
+    </div>
+    <div class="propic">
+    <img src="./six.jpg" alt="">
+    </div>
+    </div>
+</div>
+<div class="container">
+    <div class="box">
+    <div class="textbox">
+        <h1>Tom Howard</h1>
+        <h4>Human Resources</h4>
+    </div>
+    <div class="propic">
+    <img src="./two.jpg" alt="">
+    </div>
+    </div>
+</div>
+<div class="container">
+    <div class="box">
+    <div class="textbox">
+        <h1>Sophia Rivers</h1>
+        <h4>Administrative Assistant</h4>
+    </div>
+    <div class="propic">
+    <img src="./nine.jpg" alt="">
+    </div>
+    </div>
+</div>
+
+</section>
+</body>
+</html>

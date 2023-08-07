@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Profiles Bubble Containers</title>
+     <link rel="icon" type="image/x-icon" href="./imgs/fav.jpg" />
+     <style>
+          *{
+               margin: 0;
+               padding: 0;
+               box-sizing: border-box;
+          }
+
+          body{
+               background: linear-gradient(to bottom right, #bd3a95 2%,
+                    rgb(48,184,161));
+               height: 100vh;
+               text-align: center;
+               font-family: cursive;
+          }
+
+          section{
+               width: 100%;
+               justify-content: space-between;
+          }
+
+          .container{
+               margin: 15px;
+               display: inline-table;
+               justify-items: center;
+               position: relative;
+               overflow: hidden;
+               cursor: pointer;
+               transition: 600ms cubic-bezier(0.165,0.84,0.44,1);
+          }
+
+          .container:hover{
+               transform: scale(1.1);
+          }
+
+          .box{
+               width: 300px;
+               height: 300px;
+               float: left;
+               color: #fff;
+               border-radius: 50%;
+               overflow: hidden;
+              background-color: rgba(255, 255, 255, 0.708);
+          }
+
+          .box:hover{
+               background: rgb(48,184,161,0.555);
+          }
+
+          .propic {
+               display: flex;
+               justify-content: center;
+          }
+
+          .propic img{
+               width: 130px;
+               border-radius: 50%;
+               position: absolute;
+               margin-top: 30px;
+          }
+
+          .bubble{
+               height: 300px;
+          }
+
+          .text-box{
+              position: absolute;
+              margin-left: 10%;
+              text-align: center;
+              margin-top: 55%;
+              width: 80%;
+              color: #fff;
+          }
+
+          .text-box h1{
+               font-size: 20px;
+          }
+
+          .text-box h4{
+               font-size: 15px;
+          }
+
+          .text-box p{
+               font-size: 15px;
+               display: none;
+          }
+
+          .box:hover p{
+               display: block;
+          }
+     </style>
+</head>
+<body>
+     <section>
+          <div class="container">
+               <div class="box">
+                    <div class="propic">
+                         <img src="./imgs/seven.jpg" alt="ceo" />
+                    </div>
+                    <div class="text-box">
+                         <h1>Katerina Schulz</h1>
+                         <h4>CEO</h4>
+                         <p>Company founder from 2006</p>
+                    </div>
+                    <img src="imgs/borbub.png" class="bubble" />
+               </div>
+          </div>
+          <div class="container">
+               <div class="box">
+                    <div class="propic">
+                         <img src="./imgs/eight.jpg" alt="ceo" />
+                    </div>
+                    <div class="text-box">
+                         <h1>Sonia White</h1>
+                         <h4>Operation Manager</h4> 
+                         <p>From 2012</p>
+                    </div>
+                    <img src="imgs/borbub.png" class="bubble" />
+               </div>
+          </div>
+          <div class="container">
+               <div class="box">
+                    <div class="propic">
+                         <img src="./imgs/three.jpg" alt="ceo" />
+                    </div>
+                    <div class="text-box">
+                         <h1>Amanda Pane</h1>
+                         <h4>Sales Rep</h4>
+                         <p>From 2016</p>
+                    </div>
+                    <img src="imgs/borbub.png" class="bubble" />
+               </div>
+          </div>
+          <div class="container">
+               <div class="box">
+                    <div class="propic">
+                         <img src="./imgs/four.jpg" alt="ceo" />
+                    </div>
+                    <div class="text-box">
+                         <h1>Steve James</h1>
+                         <h4>Product Manager</h4> 
+                        <p>From 2006</p>
+                    </div>
+                    <img src="imgs/borbub.png" class="bubble" />
+               </div>
+          </div>
+          <div class="container">
+               <div class="box">
+                    <div class="propic">
+                         <img src="./imgs/one.jpg" alt="ceo" />
+                    </div>
+                    <div class="text-box">
+                         <h1>Tom Howard</h1>
+                         <h4>Homan Resources</h4> 
+                         <p>From 2009</p>
+                    </div>
+                    <img src="imgs/borbub.png" class="bubble" />
+               </div>
+          </div>
+          <div class="container">
+               <div class="box">
+                    <div class="propic">
+                         <img src="./imgs/nine.jpg" alt="ceo" />
+                    </div>
+                    <div class="text-box">
+                         <h1>Nelson Williams</h1>
+                         <h4>Graphic Designer</h4> 
+                         <p>From 2019</p>
+                    </div>
+                    <img src="imgs/borbub.png" class="bubble" />
+               </div>
+          </div>
+          
+     </section>
+</body>
+</html>
